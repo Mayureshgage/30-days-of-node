@@ -1,0 +1,1 @@
+Oracle commerce cloudWe are Appending this file synchronously using node.jsThis is where i work
