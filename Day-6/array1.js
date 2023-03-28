@@ -21,3 +21,5 @@ console.log(vowels);
 
 //unshift method in array
 let nzarray = [1,4,55,6,7];
+nzarray.unshift(10);
+console.log(nzarray);
