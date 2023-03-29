@@ -41,7 +41,12 @@ nzarray.splice(2,2);
 console.log(nzarray);
 
 
-let newArray = [2,6,7,8,9,3];
+let newArray = [2,6,7,8,9,3,7];
 newArray.sort()
 let concatres  = newArray.concat(nzarray);
 console.log(concatres);
+
+let position = newArray.indexOf(6);
+console.log(`This is position ${position}`);
+let lastIndex = newArray.lastIndexOf(7);
+console.log(`Last index is ${lastIndex}`);
