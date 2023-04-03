@@ -50,3 +50,15 @@ let position = newArray.indexOf(6);
 console.log(`This is position ${position}`);
 let lastIndex = newArray.lastIndexOf(7);
 console.log(`Last index is ${lastIndex}`);
+
+
+// join
+
+let foo = [2,1,5,6];
+let boo = ['a','b','c','d'];
+let str = foo.join();
+let str1 = foo.join(':');
+console.log(str);
+console.log(str1);
+let str3 = foo.slice(1,3);
+console.log(str3);
